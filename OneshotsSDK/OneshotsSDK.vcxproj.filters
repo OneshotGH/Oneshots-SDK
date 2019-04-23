@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Backend">
+      <UniqueIdentifier>{dfa10cb8-2924-488d-bc94-5c465413a77f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features">
+      <UniqueIdentifier>{92e15716-737e-46c0-9be8-5b2158114df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SourceSDK">
+      <UniqueIdentifier>{e714c281-388b-4353-af16-830cc1695d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SourceSDK\Interfaces">
+      <UniqueIdentifier>{803c43ae-c30f-47fe-af68-15f2f0ab8ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SourceSDK">
+      <UniqueIdentifier>{17521e41-4e5f-4898-aec6-4d3590623fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SourceSDK\Interfaces">
+      <UniqueIdentifier>{ea13e19e-4a9e-4c90-84d7-aa2249bd5861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Backend">
+      <UniqueIdentifier>{f8812c8b-d773-40aa-9706-801e8360a9cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks">
+      <UniqueIdentifier>{bef55f2e-9de6-4a58-bb34-c42169b37acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{4feafe28-0fe3-4d2e-87ea-e9d62076fe0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Features">
+      <UniqueIdentifier>{16f3a1d5-66df-4a6f-8f4f-4b936a7a3ae6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetvarManager.cpp">
+      <Filter>Source Files\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>Source Files\SourceSDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="CheatGlobalVars.cpp">
+      <Filter>Source Files\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="CVMT.cpp">
+      <Filter>Source Files\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassIdManager.cpp">
+      <Filter>Source Files\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectxHooks.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateMove.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Paintraverse.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="IVPanel.cpp">
+      <Filter>Source Files\SourceSDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseEntity.cpp">
+      <Filter>Source Files\SourceSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigVars.cpp">
+      <Filter>Source Files\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="IInputSystem.cpp">
+      <Filter>Source Files\SourceSDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="CInput.cpp">
+      <Filter>Source Files\SourceSDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="CMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IEngineTrace.cpp">
+      <Filter>Source Files\SourceSDK\Interfaces</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IBaseClientDLL.h">
+      <Filter>Header Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Recv.h">
+      <Filter>Header Files\SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IAppSystem.h">
+      <Filter>Header Files\SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVars.h">
+      <Filter>Header Files\SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Header Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="NetvarManager.h">
+      <Filter>Header Files\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatGlobalVars.h">
+      <Filter>Header Files\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="CVMT.h">
+      <Filter>Header Files\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientAndServerClass.h">
+      <Filter>Header Files\SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IServerGameDLL.h">
+      <Filter>Header Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassIdManager.h">
+      <Filter>Header Files\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientMode.h">
+      <Filter>Header Files\SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="QAngle.h">
+      <Filter>Header Files\SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x4_t.h">
+      <Filter>Header Files\SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="DefEnums.h">
+      <Filter>Header Files\SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UserCmd.h">
+      <Filter>Header Files\SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IVPanel.h">
+      <Filter>Header Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseEntity.h">
+      <Filter>Header Files\SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientThinkable.h">
+      <Filter>Header Files\SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientNetworkable.h">
+      <Filter>Header Files\SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientRenderable.h">
+      <Filter>Header Files\SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientUnknown.h">
+      <Filter>Header Files\SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IHandleEntity.h">
+      <Filter>Header Files\SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ICollideable.h">
+      <Filter>Header Files\SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientEntityList.h">
+      <Filter>Header Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseHandle.h">
+      <Filter>Header Files\SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngineClient.h">
+      <Filter>Header Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files\SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigVars.h">
+      <Filter>Header Files\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="IInputSystem.h">
+      <Filter>Header Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CInput.h">
+      <Filter>Header Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ISurface.h">
+      <Filter>Header Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngineTrace.h">
+      <Filter>Header Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4D.h">
+      <Filter>Header Files\SourceSDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
